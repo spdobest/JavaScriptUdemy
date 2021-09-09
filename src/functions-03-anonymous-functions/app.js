@@ -1,4 +1,4 @@
-const startGameBtn = document.getElementById('start-game-btn');
+const startGameBtn = document.getElementById("start-game-btn");
 
 // const start = function() {
 //   console.log('Game is starting...');
@@ -15,6 +15,11 @@ const startGameBtn = document.getElementById('start-game-btn');
 
 // console.dir(startGame);
 
-startGameBtn.addEventListener('click', function() {
-  console.log('Game is starting...');
+startGameBtn.addEventListener("click", function () {
+  console.log("Game is starting...");
 });
+
+// This is arrow function
+// startGameBtn.addEventListener("click", () => {
+//   console.log("Game is starting...");
+// });
