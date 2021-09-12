@@ -26,9 +26,13 @@
 
 // console.log(personalData[1]);
 
-const hobbies = ['Sports', 'Cooking'];
-hobbies.push('Reading');
-hobbies.unshift('Coding');
+const hobbies = ["Sports", "Cooking"];
+console.log("Array Before Operation : " + hobbies);
+hobbies.push("Reading");
+console.log("Array After Push(Reading) Operation : " + hobbies);
+hobbies.unshift("Coding");
+console.log("Array After Unshift (Coding) Operation : " + hobbies);
 const poppedValue = hobbies.pop();
+console.log("Array After pop Operation : " + hobbies);
 hobbies.shift();
-console.log(hobbies);
+console.log("Array After Shift Operation : " + hobbies);

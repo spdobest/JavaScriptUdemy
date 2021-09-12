@@ -44,8 +44,9 @@
 // console.log(hobbies);
 
 const testResults = [1, 5.3, 1.5, 10.99, -5, 10];
+console.log("Array before Slice operation " + testResults);
 const storedResults = testResults.slice(2);
-
+console.log("Result Array after Slice(2) operation " + storedResults);
 testResults.push(5.91);
 
 console.log(storedResults, testResults);
